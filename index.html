@@ -3,15 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/tailwind.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Air BNB</title>
-    <div class="h-64 grid grid-rows-3 grid-flow-col gap-4"></div>
-    <div>Places to Stay </div>
-    <div>Experiences</div>
-    <div>Online Experiences</div>
-    <div>Become A Host</div>
 </head>
+
 <body>
-    
+    <div class="bg-green-700 p-5">
+        <div class="flex-justify-between">
+            <div class="p-7">Logo</div>
+            <div class="flex jusyify-around">
+
+                <div class="p-7 text-white hover:underline">Places to Stay </div>
+                <div class="p-7 text-white hover:underline">Experiences</div>
+                <div class="p-7 text-white hover:underline">Online Experiences</div>
+            </div>
+            <div class="flex justify-around">
+                <div class="p-3 text-white hover: bg-gray-600 bg-opacity-30 rounded-full">Become a host</div>
+                <div class="p-3 text-white hover">Globe</div>
+                <div class="p-3 text-white">Profile Tag</div>
+            </div>
+        </div>
+
+        <div class="py-2 container mx-auto bg-gray-40 rounded-full">
+            <div class="flex justify-evenly">
+                <div>
+                    <div class="font-bold">Location</div>
+                    <div>Where are you going?</div>
+                </div>
+                <div>
+                    <div class="font-bold">Check-In</div>
+                    <div>Add Dates</div>
+                </div>
+                <div>
+                    <div class="font-bold">Check out</div>
+                    <div>Add Guest</div>
+                </div>
+                <div>
+                    <button>search icon</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="my-80">
+                <div class="w-min text-white font-extrabold font-sans text-7x1">Go Near</div>
+                <div class="p-3 bg-white text-black">Explore Nearby Stays</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
