@@ -7,6 +7,12 @@
   }
 }
 
-"scripts": { 
-  "tw" : "tailwind build ./src/tailwind.css -o ./dist/tailwind.css"
+{
+  "name": "my-package",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  }
 }
+
+
